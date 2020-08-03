@@ -1,5 +1,6 @@
 # MoviePanda
 [![MIT License](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/nitinankad/utdegree-planner/blob/master/LICENSE)
+
 An early version of Walrus TV ([https://joinwalr.us](https://joinwalr.us))
 
 ![MoviePanda Demo](https://user-images.githubusercontent.com/46038298/89197551-805fbc80-d571-11ea-94e1-e2318b05ca31.png)
