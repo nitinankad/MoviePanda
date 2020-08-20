@@ -47,7 +47,7 @@ http.listen(process.env.PORT || 8000, function() {
   console.log("Listening on port " +  process.env.PORT);
 });
 
-setInterval(function() {
+setInterval(() => {
   // Send timestamp update to the hosts of the room
   for (var room in rooms) {
     io.to(room).emit("timestamp update request");
@@ -58,7 +58,6 @@ setInterval(function() {
           in an empty room. If X amount of time has elapsed and nobody has joined
           the room since, close the room session.
   */
- rooms
 }, 5000);
 
 
